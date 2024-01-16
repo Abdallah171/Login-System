@@ -81,11 +81,12 @@ input:valid ~ label {
 }
 
 .forget {
-  margin: 35px 0;
+  margin: 35px 0px;
   font-size: 0.85rem;
   color: #fff;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .forget label {

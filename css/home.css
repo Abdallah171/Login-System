@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-image: url(../imgs/erol-ahmed-IHL-Jbawvvo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav .navbar-brand {
+  font-size: 35px;
+  background-color: rgb(230, 230, 20);
+}
+
+nav .btn {
+  font-size: 30px;
+}
+
+header p {
+  font-size: 70px;
+  color: white;
+}

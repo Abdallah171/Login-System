@@ -32,10 +32,9 @@ function checkUser() {
             localStorage.setItem('userName', un);
             window.location = './home.html';
             break;
-
-
+        } else {
+            document.getElementById('message').innerHTML = `<p class="text-center text-danger">email or password incorrect</p>`
         }
     }
-
 
 }
